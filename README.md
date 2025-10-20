@@ -14,17 +14,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Oxana Storoj</o:Author>
   <o:LastAuthor>Oxana Storoj</o:LastAuthor>
-  <o:Revision>5</o:Revision>
+  <o:Revision>6</o:Revision>
   <o:TotalTime>2</o:TotalTime>
   <o:Created>2025-10-19T08:25:00Z</o:Created>
-  <o:LastSaved>2025-10-20T16:09:00Z</o:LastSaved>
+  <o:LastSaved>2025-10-20T16:13:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>114</o:Words>
-  <o:Characters>666</o:Characters>
+  <o:Words>147</o:Words>
+  <o:Characters>853</o:Characters>
   <o:Company>VIENNA INSURANCE GROUP</o:Company>
-  <o:Lines>5</o:Lines>
+  <o:Lines>7</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>779</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>999</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -37,6 +37,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <w:WordDocument>
   <w:View>Print</w:View>
   <w:Zoom>110</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:HyphenationZone>21</w:HyphenationZone>
@@ -679,6 +680,9 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -725,59 +729,80 @@ div.WordSection1
 
 <div class=WordSection1>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>#
-qa-final-project-java <o:p></o:p></span></p>
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'># <span
+class=SpellE>qa</span>-final-<span class=SpellE>project</span>-<span
+class=SpellE>java</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>[![CI
+<span class=SpellE>Pipeline</span> for QA Final Project
+JAVA](https://github.com/oxanastoroj-hub/qa-final-project-java/actions/workflows/ci.yml/badge.svg)](https://github.com/oxanastoroj-hub/qa-final-project-java/actions/workflows/ci.yml)<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Ce
-face proiectul. Proiectul va rula testele automate Cum se ruleaz? <o:p></o:p></span></p>
+face proiectul. Proiectul va rula testele automate Cum se <span class=SpellE>ruleaz</span>?
+<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>testele
-local (comanda mvn test). Local se ruleaza cu ajutorul fisierului ci.yml <o:p></o:p></span></p>
+local (comanda <span class=SpellE>mvn</span> test). Local se <span
+class=SpellE>ruleaza</span> cu ajutorul <span class=SpellE>fisierului</span> <span
+class=SpellE>ci.yml</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cum
-se construie?te ?i se ruleaz? imaginea Docker (docker build ... ?i docker run
-...). <o:p></o:p></span></p>
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cum se
+<span class=SpellE>construie?te</span> ?i se <span class=SpellE>ruleaz</span>?
+imaginea <span class=SpellE>Docker</span> (<span class=SpellE>docker</span> <span
+class=SpellE>build</span> ... ?i <span class=SpellE>docker</span> <span
+class=SpellE>run</span> ...). <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-creaza un repo pe github <o:p></o:p></span></p>
+<span class=SpellE>creaza</span> un <span class=SpellE>repo</span> pe <span
+class=SpellE>github</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-cloneaza pe local <o:p></o:p></span></p>
+<span class=SpellE>cloneaza</span> pe local <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-creaza o anumita structura de foldere in root <o:p></o:p></span></p>
+<span class=SpellE>creaza</span> o anumita structura de <span class=SpellE>foldere</span>
+in <span class=SpellE>root</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-adauga dependintele proiectului (yaml, xml, ci, et) <o:p></o:p></span></p>
+<span class=SpellE>adauga</span> <span class=SpellE>dependintele</span>
+proiectului (<span class=SpellE>yaml</span>, <span class=SpellE>xml</span>, ci,
+et) <o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>-
-savepoint: se face git add . &gt;&gt; git commit -m &gt;&gt; git push <o:p></o:p></span></p>
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- <span
+class=SpellE>savepoint</span>: se face <span class=SpellE>git</span> <span
+class=SpellE>add</span> . &gt;&gt; <span class=SpellE>git</span> <span
+class=SpellE>commit</span> -m &gt;&gt; <span class=SpellE>git</span> <span
+class=SpellE>push</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- Se
-containerezeaza in dicker cu dockerfile <o:p></o:p></span></p>
+<span class=SpellE>containerezeaza</span> in <span class=SpellE>dicker</span>
+cu <span class=SpellE>dockerfile</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- Se
-creaza tag <o:p></o:p></span></p>
+<span class=SpellE>creaza</span> <span class=SpellE>tag</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- Se
-face push in docker <o:p></o:p></span></p>
+face <span class=SpellE>push</span> in <span class=SpellE>docker</span> <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Un
-badge de status care arat? live dac?<o:p></o:p></span></p>
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Un <span
+class=SpellE>badge</span> de status care arat? live dac?<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><span
-style='mso-spacerun:yes'>&nbsp;</span>pipeline-ul de CI/CD este
-&quot;passing&quot; sau &quot;failing&quot;. &gt;&gt;&gt;&gt;&gt;&gt; bd6a1ea
-(feat: Adauga primul test cu pseudocod pentru proiectul final, configurare si
-pom.xml) <o:p></o:p></span></p>
+style='mso-spacerun:yes'>&nbsp;</span><span class=SpellE>pipeline-ul</span> de
+CI/CD este &quot;passing&quot; sau &quot;<span class=SpellE>failing</span>&quot;.
+&gt;&gt;&gt;&gt;&gt;&gt; bd6a1ea (<span class=SpellE>feat</span>: <span
+class=SpellE>Adauga</span> primul test cu pseudocod pentru proiectul final,
+configurare si pom.xml) <o:p></o:p></span></p>
 
 </div>
 
