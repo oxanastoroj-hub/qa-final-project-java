@@ -14,17 +14,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Oxana Storoj</o:Author>
   <o:LastAuthor>Oxana Storoj</o:LastAuthor>
-  <o:Revision>3</o:Revision>
+  <o:Revision>4</o:Revision>
   <o:TotalTime>2</o:TotalTime>
   <o:Created>2025-10-19T08:25:00Z</o:Created>
-  <o:LastSaved>2025-10-20T15:51:00Z</o:LastSaved>
+  <o:LastSaved>2025-10-20T15:56:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
   <o:Words>114</o:Words>
-  <o:Characters>666</o:Characters>
+  <o:Characters>667</o:Characters>
   <o:Company>VIENNA INSURANCE GROUP</o:Company>
   <o:Lines>5</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>779</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>780</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -738,8 +738,8 @@ local (comanda mvn test). Local se ruleaza cu ajutorul fisierului ci.yml <o:p></
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cum
-se construie?te ?i se ruleaz? imaginea Docker (docker build ... ?i docker run
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cum se
+construie?te ?i se ruleaz? imaginea Docker (docker build ... ?i docker run
 ...). <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
@@ -775,9 +775,9 @@ badge de status care arat? live dac?<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><span
 style='mso-spacerun:yes'>&nbsp;</span>pipeline-ul de CI/CD este
-&quot;passing&quot; sau &quot;failing&quot;. &gt;&gt;&gt;&gt;&gt;&gt; bd6a1ea
-(feat: Adauga primul test cu pseudocod pentru proiectul final, configurare si
-pom.xml) <o:p></o:p></span></p>
+&quot;passing&quot; sau &quot;failing&quot;. &gt;&gt;&gt;&gt;&gt;&gt;&gt;
+bd6a1ea (feat: Adauga primul test cu pseudocod pentru proiectul final,
+configurare si pom.xml) <o:p></o:p></span></p>
 
 </div>
 
